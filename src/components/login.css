@@ -1,0 +1,70 @@
+
+.form-asd input[type="text"]{
+    padding: .5rem;
+    margin-bottom: 1em;
+}
+
+.form-asd input[type="password"]{
+    padding: .5rem;
+    margin-top: 1em;
+    border: 1px solid gray;
+    border-radius: .5em;
+}
+
+.form-asd h1     {
+    padding: 0 0 .5em;
+    margin: 0;
+    color:#6a9890
+}
+
+a.login-button{
+    color: #0000008C;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+a.login-button:hover{
+    color: #000000;
+}
+
+a.nav-link {
+
+    margin-left: 0;
+}
+
+.form-asd button{
+    vertical-align: center;
+    padding: .5rem;
+    padding-left: 43%;
+    padding-right: 43%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background: #b7d0cc;
+} 
+
+
+h5 {
+    margin: .7em;
+    padding: .3em;
+}
+
+.form-asd h5 {
+    padding: 0 0 .5em;
+    margin: 0;
+    color:#0f3831
+}
+
+.customOverlay {
+    background: rgba(23, 32, 35, 0.7);
+
+  }
+  .customModal {
+    padding: 2em 2em 2em 2em;
+    background: #cbe6e2;
+    border-radius: 1rem;
+    margin: 2em -1em 0;
+    max-width: 300px;
+    width: 100%;
+    
+  }

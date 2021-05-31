@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+tr.footer:hover{
+    background-color: rgba(154, 149, 149, 0.401);
+}
+
+td{
+    padding: 0.5rem;
+    vertical-align: middle;  
+    color: black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+
+table{
+
+    text-align: center;
+    align-self: center;
+    border: 1px solid rgba(17, 14, 14, 0.401);
+    border-left: white;
+    border-right: white;
+    border-collapse: collapse;
+    font-size:small;
+
+}
+table img {
+    height: 30px;
+    width: 30px;
+    align-self: center;
+}
+
+
+tr.header th:first-child,tr.header th:nth-child(2), tr.footer th:first-child,tr.footer td:nth-child(2){
+    background: white;
+    position:sticky;
+    left:0px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+
+tr.header th{
+    align-self: center;
+}
+
+td:nth-child(2){
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+caption{
+    margin-left: 47%;
+    font-weight: bold;
+    font-size: medium;
+}
+
+@media (min-width: 730px) {
+
+    .table-responsive {
+        padding: 1em;
+    }
+
+    table{
+        font-size:0.9rem;
+    }
+
+
+    tr.header th:first-child,tr.header th:nth-child(2), tr.footer th:first-child,tr.footer td:nth-child(2){
+        background: transparent;
+        font-weight: bold;
+    }
+    
+    table th, th:nth-child(2) {
+        background: white;
+    }
+    
+    
+    table img:hover {
+        cursor: pointer;
+    }
+    
+    
+    tr:hover {
+        
+        background-color: #36313139;
+    }
+    tr.header:hover{
+        background:white;
+    }
+}
+    
+.table tbody tr {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*
+table,tbody, td, th {
+    padding: 0.8em;
+    text-align: center;
+    align-self: center;
+    border: 1px solid rgba(17, 14, 14, 0.401);
+    border-left: white;
+    border-right: white;
+    border-collapse: collapse;
+    background-color: transparent;
+    font-size:small;
+
+}
+
+tbody{
+    align-self:center ;
+}
+
+table th, th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) {
+    background: white;
+    font-weight: bold;
+}
+
+
+table img:hover {
+    cursor: pointer;
+}
+
+
+tr:hover {
+    background-color: #b8b8b839;
+}
+
+th:first-child, td:first-child, th:nth-child(2), td:nth-child(2)
+{
+  position:sticky;
+  left:0px;
+  text-align: left;
+  align-self: left;
+
+}
+
+
+
+@media (min-width: 730px) {
+    table, td, th, tr {
+        font-size:0.9rem;
+    }
+    
+}
+
+@media (min-width: 930px){
+
+table th, th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) {
+    background: transparent;
+    font-weight: bold;
+}
+
+table th, th:nth-child(2) {
+    background: white;
+}
+
+
+table img:hover {
+    cursor: pointer;
+}
+
+
+tr:hover {
+    
+    background-color: #36313139;
+}
+
+}
+*/

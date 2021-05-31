@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700');
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+:root {
+    --leading: 2em;
+}
+
+.hero-bg{
+    background-color: #4dd5d08d;
+    background-image: url('./images/bg5.jpg');
+    background-size: cover;
+    background-position: 52% 1%;
+    color: rgb(31, 78, 78);
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.overlay{
+    background: #3c434534;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.081);
+    border-radius: .5rem;
+}
+
+header{
+    padding:1em 0 1em;
+    margin: 0 1em 0 1em;
+
+}
+
+button.nav-bar-coins-btn {
+    padding: 0;
+    margin: 1em 0 0 0;
+    text-align: center;
+
+    color: rgba(86, 50, 140, 0.918);
+    text-decoration:  none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 0;
+}
+
+
+
+.hero-bg a{
+    color: rgba(3, 50, 96, 0.979);
+    text-decoration:  none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+section{
+    margin: 0 1em;
+}
+
+h1{
+    font-size:  2rem;
+    margin: 2em 0 1.2em;
+    padding: 1em 0 ;
+    font-weight: bold;
+}
+
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: 2rem;
+    position: relative;
+    font-weight: bold;
+    z-index: 1;
+}
+
+h1 span::before{
+    content: ' ';
+    position: absolute;
+    width: 7em;
+    background: #697b82;
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+.hero-bg p{
+    font-weight: bold;
+    margin: 0 1em 3em;
+    padding: 1em 0;
+
+}
+
+.form-container{
+    background-color: rgba(238, 224, 209, 0.571);
+    margin: 2em -1em 0;
+    padding: 2em;
+    
+}
+
+
+label {
+    color: #3c4345;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+
+}
+
+input[type=text] {
+    border: 1px solid #707070;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: .5em;
+    margin-top: 1.2em;
+
+}
+
+.form-container p {
+    color: #3c4345;
+    margin-bottom: 1.5em;
+    font-weight: normal;
+    font-size: .9em;
+    margin-top: .3em;
+}
+
+input[type=button] {
+    background-color: #307d99f7;
+    border: none;
+    width: 100%;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #246982;
+
+}
+
+.coin-preface {
+    margin: 0;
+
+} 
+
+.right-col {
+    text-align: center;
+    margin: 3em 1em;
+}
+
+.second-bg h2 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+.second-bg h2::before{
+    content: ' ';
+    position: absolute;
+    width: 2em;
+    background: #8ea6b0;
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+.second-bg img{
+    width: 100%;
+}
+
+p{
+    line-height: var(--leading);
+}
+.coins {
+    padding: 1em;
+    margin: 2em 0 5em;
+}
+
+.coins h2 {
+    text-align: center;
+    padding: 1em;
+}
+
+
+.basic-navbar-nav{
+    margin: 2em;
+    align-items: left;
+    align-self: left;
+}
+
+button.nav {
+    color: rgba(86, 50, 140, 0.918);
+    text-decoration:  none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 0;
+    padding: .5em;
+
+}
+
+button.nav:hover {
+    
+    background: transparent;
+}
+
+footer {
+    padding: 2em;
+    margin: 0;
+    flex-shrink: 0;
+    text-align: center;
+    background-color: rgb(47, 49, 47);
+    color: white;
+  }
+
+  span.footer-icon {
+    padding: 1em;
+}
+  
+
+@media (min-width: 730px) {
+
+    section {
+        margin: 0 5em;
+    }
+
+    .form-container{
+        margin: 2em -5em 0;
+    }
+
+
+
+}
+
+
+@media (min-width: 992px) {
+
+    button.nav-bar-coins-btn {
+        padding: 0;
+        margin: 0;
+        text-align: cenetr;
+    
+        color: rgba(86, 50, 140, 0.918);
+        text-decoration:  none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background: transparent;
+        border: 0;
+    }
+
+    header{
+        margin: 0 1em 0 5em;
+    
+    }
+
+    span.nav-span {
+        margin-right: 50%;
+        padding:1em;
+    }
+
+    .basic-navbar-nav{
+        margin:0;
+    }
+
+    .hero-bg{
+        text-align: left;
+        padding-bottom: 4.5em;
+    }
+
+    .hero-bg p {
+        margin: 0 0 3em;
+        padding-bottom: 2em;
+    }
+
+    .hero-bg section {
+        width: 60%;
+    }
+
+    .form-container {
+        margin: 2em 0 0;
+        padding: 2em;
+        border-radius: .5em;
+        box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+    }
+
+    form {
+        display: flex;
+    }
+
+    .form-left {
+        width: 70%;
+    }
+
+    label {
+        margin: 0;
+    }
+
+    input[type=button] {
+        height: fit-content;
+        font-size: 1.2em;
+        margin-left: 1em;
+        margin-top: 2.5em;
+        padding: .7em 0;
+        width: 30%;
+    }
+
+
+    .hero-bg p{
+        margin: 0;
+    }
+
+    section.coin-preface{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        grid-template-areas: "stats coin";
+    }
+
+    .right-col {
+        grid-area: coin;
+        padding: 0 10%;
+        text-align: left;
+        align-self: center;
+    }
+
+    .second-bg img {
+        grid-area: stats;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    span.login-icon {
+        margin-top: .5em;
+    }
+
+ 
+
+
+}
+
+.top {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

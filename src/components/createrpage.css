@@ -1,0 +1,186 @@
+
+div.main-hero-bg {
+   background: rgb(27, 27, 27);
+   color:rgb(157, 151, 151);
+}
+
+header a {
+    color: rgba(12, 80, 149, 0.979);
+    text-decoration:  none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+div.creater-hero-bg {
+    display: block;
+    margin: 2em 0;
+    padding: 2em;
+    text-align: center;
+}
+
+div.creater-hero-bg img {
+    width: 200px;
+    height: 200px;
+    border-radius: 7em;
+    margin-bottom: 3em;
+}
+
+div.creater-hero-bg p {
+    margin-top: 3em;
+    display: block;
+    font-size: 20px;
+    line-height: 2.5em;
+}
+
+span.hey {
+    font-size: 60px;
+    color: rgb(49, 98, 49);
+}
+
+span.name {
+    font-size: 35px;
+    color: rgb(113, 38, 36);
+}
+
+span.full-stack {
+    font-size: 35px;
+    color: rgb(115, 22, 159);
+}
+
+span.and {
+    font-size: 60px;
+    color: rgb(108, 50, 91);
+}
+
+span.django {
+    font-size: 30px;
+    color: rgb(21, 113, 102);
+}
+
+span.react {
+    font-size: 30px;
+    color: rgb(59, 146, 165);
+}
+
+
+div.web-pro-info {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    text-align: center;
+}
+
+div.web-pro-head{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em;
+    color: rgba(206, 217, 226, 0.619);
+}
+
+span.tipcoin {
+    font-size: 30px;
+    color: rgba(12, 80, 149, 0.979);
+}
+
+div.web-pro-info p {
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: rgba(206, 217, 226, 0.619);
+}
+
+div.front-end {
+    background: rgba(255, 255, 255, 0.102);
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.401);
+}
+
+div.back-end {
+    background: rgba(255, 255, 255, 0.048);
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.401);
+
+}
+
+div.backend {
+    margin-top: 2em;
+    margin-bottom: .5em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(55, 174, 16, 0.517);
+
+}
+
+div.redoc {
+    background: rgba(255, 255, 255, 0.048);
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.401);
+}
+
+div.redoc p {
+    margin: .3em;
+    padding: 0;
+    vertical-align: center;
+}
+
+div.swagger p {
+    margin: .3em;
+    padding: 0;
+    vertical-align: center;
+}
+
+div.swagger {
+    background: rgba(255, 255, 255, 0.102);
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.401);
+}
+
+
+div.redoc:hover , div.swagger:hover {
+    cursor: pointer;
+}
+
+div.follow-user {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div.follow {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3,33%);
+    padding-bottom: 2em;
+}
+
+div.linkedin:hover , div.github:hover , div.instagram:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 930px) {
+    div.creater-hero-bg {
+        display: grid;
+        grid-template-columns: repeat(2,45%);
+    }
+
+    div.creater-hero-bg img{
+        margin: 0;
+    }
+
+    div.image {
+        align-self: center;
+    }
+
+    div.tool-info {
+       margin-left: 30%;
+       margin-right: 30%;
+    }
+
+}

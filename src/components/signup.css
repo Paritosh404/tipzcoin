@@ -1,0 +1,96 @@
+
+
+
+
+
+.form-asdf input[type="text"] {
+    padding: .5rem;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.form-asdf input[type="password"] {
+    padding: .5rem;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border: 1px solid gray;
+    border-radius: .5em;
+}
+
+.form-asdf input[type="number"] {
+    padding: .5rem;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border: 1px solid gray;
+    border-radius: .5em;
+}
+
+.form-asdf h1 {
+    padding: 0 0 .5em;
+    margin: 0;
+    color:#6a9890
+}
+
+
+.form-asdf h5 {
+    padding: 0 0 .5em;
+    margin: 0;
+    color:#0f3831
+}
+
+.signupform button {
+    padding: .5rem .3em;
+    margin-top: .5em;
+    margin-bottom: 0;
+    margin-left: 40%;
+    border: 0;
+    background: #b7d0cc;
+}
+
+.form-asdf button{
+    vertical-align: center;
+    padding: .5rem;
+    margin-top: 0em;
+    margin-left: 0%;
+    margin-bottom: 0;
+    padding-left: 43%;
+    padding-right: 39%;
+    background: #b7d0cc;
+} 
+
+
+.customOverlay {
+    background: rgba(23, 32, 35, 0.7);
+
+  }
+  .customModalsign {
+    padding: 1em 1em 1em 1em;
+    background: #cbe6e2;
+    border-radius: 1rem;
+    margin: 1em 0em 1em 0;
+    max-width: 320px;
+    width: 100%;
+    
+  }
+
+  @media (min-width: 930px) {
+      .customModalsign {
+    padding: 2em 2em 2em 2em;
+    background: #cbe6e2;
+    border-radius: 1rem;
+    margin: 2em -1em 1em 0;
+    max-width: 500px;
+    width: 100%;
+    
+  }
+  .form-asdf button{
+    vertical-align: center;
+    padding: .5rem;
+    margin-top: 0em;
+    margin-left: 0;
+    padding-left: 44%;
+    padding-right: 44%;
+    margin-bottom: 0;
+    background: #b7d0cc;
+} 
+  }
